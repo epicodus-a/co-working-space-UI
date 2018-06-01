@@ -8,6 +8,18 @@
 
 UI design for co-working space alike business
 
+### Brainstorming
+- material credits go to below sites:
+  - [hackerspace](http://pdxhackerspace.org/)
+
+| Requests  |  Keywords |  Solution | examples|
+|---|---|---|---|---|
+| Impression | Luxurious, cool, high-end, inclusive  |   High quality images galleries|![high](imgs/lux.jpg)![inclusive](imgs/inclusive.jpg)|
+| Main Concept|  Unique, funky, local, less corporate | Unique painting on the wall or floor, funky display items or stickers on desk, stories |![unique](imgs/funky.jpg) ![unique](imgs/cool.jpg) ![craftman](imgs/workshop-craftman.png)|
+| Target Audience|  Tech People, Artists, day-traders, writes etc. |   Advertise in various communities|![raised-bed](imgs/raised-bed.png)|
+
+
+
 ### Images
 
 Screenshots of your Sketch wireframes should go here. Make sure to include all versions (if you have different mobile, tablet, desktop, etc.) designs. Use Dropbox or another free image hosting service to host your images.
@@ -39,7 +51,7 @@ Screenshots of your Sketch wireframes should go here. Make sure to include all v
 ### Roadmap
 
 - Register / Login
-- 
+-
 
 ### License
 
