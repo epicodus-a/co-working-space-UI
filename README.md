@@ -14,12 +14,8 @@ UI design for co-working space alike business
   - [google](google.com)
 
 
-| Requests  |  Keywords |  Solution | examples|
-|---|---|---|---|---|
-| Impression | Luxurious, cool, high-end, inclusive  |   High quality images galleries|![high](imgs/lux.jpg)|
-| Main Concept|  Unique, funky, local, less corporate | Unique painting on the wall or floor, funky display items or stickers on desk, stories |![unique](imgs/funky.jpg) ![craftman](imgs/workshop-craftman.png)|
-| Target Audience|  Tech People, Artists, day-traders, writes etc. |   Advertise in various communities|![raised-bed](imgs/raised-bed.png)|
 
+ ![request](imgs/request.png)
 
 
 ### Images
