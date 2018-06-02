@@ -12,6 +12,8 @@ UI design for co-working space alike business
 - material credits go to below sites:
   - [hackerspace](http://pdxhackerspace.org/)
   - [google](google.com)
+
+
 | Requests  |  Keywords |  Solution | examples|
 |---|---|---|---|---|
 | Impression | Luxurious, cool, high-end, inclusive  |   High quality images galleries|![high](imgs/lux.jpg)|
