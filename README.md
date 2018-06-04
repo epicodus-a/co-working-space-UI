@@ -13,22 +13,26 @@ UI design for co-working space alike business
   - [hackerspace](http://pdxhackerspace.org/)
   - [google](google.com)
 
-
-
  ![request](imgs/request.png)
 
 
 ### Images
 
-Screenshots of your Sketch wireframes should go here. Make sure to include all versions (if you have different mobile, tablet, desktop, etc.) designs. Use Dropbox or another free image hosting service to host your images.
 
 #### Desktop Version
 
-![desktop user interface](link-to-screenshot-here)
+![desktop user interface](sketches/Desktop-home.jpg)
+
+#### Tablet Version
+
+![tablet home](sketches/Tablet-Portrait-home.jpg)
+![mobile space ](sketches/Tablet-Portrait-space-page.jpg)
 
 #### Mobile Version
 
-![mobile user interface](link-to-screenshot-here)
+![mobile home](sketches/Mobile-Portrait-home.jpg)
+![mobile hamburger clicked](sketches/Mobile-Portrait-hamburg-clicked.jpg)
+![mobile space ](sketches/Mobile-Portrait-space-page.jpg)
 
 ### Technologies and Resources
 
