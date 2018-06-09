@@ -32,3 +32,33 @@
   }
 }
 
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box {
+  @include border-radius(10px);
+}
+
+
+/// media querys
+@mixin mobile {
+  @media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+} 
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}

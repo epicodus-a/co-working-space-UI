@@ -53,15 +53,22 @@ $max-width: 1180px !default;
 /// Breakpoints map
 /// @prop {String} keys - Keys are identifiers mapped to a given length
 /// @prop {Map} values - Values are actual breakpoints expressed in pixels
-$breakpoints: (
-  'small': 320px,
-  'medium': 768px,
-  'large': 1024px,
-) !default;
+// $breakpoints: (
+//   'small': 320px,
+//   'medium': 768px,
+//   'large': 1024px,
+// ) !default;
+$mobile-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
 
 
 
+// @include media(">small", "<tablet") {
+// }
 
+// @include media(">medium", "<950px") {
+// }
 
 
 /// Relative or absolute URL where all assets are served from
