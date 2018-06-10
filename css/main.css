@@ -420,7 +420,8 @@ html {
   box-sizing: border-box; }
 
 body {
-  background-color: #e4eadd; }
+  background-color: #e4eadd;
+  font-family: "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
@@ -632,6 +633,46 @@ body {
   color: #000;
   text-decoration: none;
   cursor: pointer; }
+
+footer .container {
+  display: grid;
+  grid-row-gap: 2.2rem;
+  grid-column-gap: 2.5rem;
+  font-size: 0.89rem;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2rem 3rem; }
+  footer .container button {
+    border: none;
+    background-color: #8dd9bf;
+    height: 10vh;
+    margin: 0.3rem 2.2rem;
+    color: white;
+    font-size: 1.8rem; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      footer .container button {
+        margin: 0.2rem 2.2rem;
+        height: 16vh;
+        padding: 1.2rem 1.3rem; } }
+  @media (min-width: 320px) and (max-width: 767px) {
+    footer .container {
+      grid-template-columns: 1fr;
+      padding: 1.6rem 3rem;
+      font-size: 0.75rem; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    footer .container {
+      grid-template-columns: 5fr 2fr;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; } }
+  @media (min-width: 1024px) {
+    footer .container {
+      grid-template-columns: 5fr 2fr;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; } }
 
 .slider {
   display: grid;
