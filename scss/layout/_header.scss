@@ -1,3 +1,145 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to layout/header.
 // -----------------------------------------------------------------------------
+
+.container {
+  display: grid;
+  background-color: $bg-color1;
+  justify-content: space-around;
+  align-content: space-around;
+  grid-template-rows:    minmax(100px, auto);
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  
+
+  .bar {
+    height: 2px;
+    width: 16px;
+    background-color: $text-color;
+    margin-bottom: 2px;
+  }
+ 
+  .brand{
+  padding: 1rem 0;
+  align-self: center;
+  justify-self: flex-start;
+
+    img {
+      @include mobile{
+      width: 40%;
+      }
+  
+      @include tablet{
+      width: 50%;
+        
+      }
+      @include desktop{
+      width: 50%;
+      }
+    }
+  }
+
+  .menu{
+    padding: 1rem 0;
+    align-self: center;
+    justify-self: flex-end;
+
+    #myBtn {
+      border: none;
+    }
+      
+    @include mobile{
+      display: block;
+     
+    }
+
+    @include tablet{
+      display: none;
+      
+    }
+    @include desktop{
+      display: none;
+    }
+  }
+
+  .navbar {
+    display: inline-flex;
+    // flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-self: end;
+    align-self: center;
+    color: $text-color;
+    font-size: 1rem;
+    li{
+      display: inline;
+      padding-left: 0.3rem;
+    }
+    @include mobile{
+      display: none;
+      font-size: 0.6rem;
+      color: $text-color;
+      
+    }
+
+    @include tablet{
+      display: block;
+    }
+    @include desktop{
+      display: block;
+    }
+  }
+
+  
+
+} 
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  /* padding-top: 100px; /* Location of the box */ 
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+display: grid;
+grid-auto-rows: 100px;
+flex-direction: column;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  /* border: 1px solid #888; */
+  width: 80%;
+  height: 100vh;
+}
+
+// .inner-modal{
+// background-color: white;
+// width: 300px;
+// }
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+

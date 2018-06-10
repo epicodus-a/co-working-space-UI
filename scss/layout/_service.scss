@@ -1,0 +1,40 @@
+.service{
+  padding-top: 2.5rem;
+  .container {
+    background-color: $bg-color2;
+    display: grid;
+    color: $text-color;
+    grid-row-gap: 2.2rem;
+    grid-column-gap: 2.5rem;
+    font-family: $text-font-stack;
+    justify-content: center;
+    align-items: center;
+
+    @include mobile{
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+    }
+
+    @include tablet{
+    grid-template-columns: 1fr 1fr 1fr;
+      
+    }
+    @include desktop{
+    grid-template-columns: 1fr 1fr 1fr;
+      
+    }
+    img {
+      align-self: center;
+      justify-self: center;
+    }
+
+    .service1{
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+  }
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,117 @@
   <link rel="stylesheet" href="css/main.css">
   <title>Document</title>
 </head>
-<body class="container">
-  <h4>
-    <span>test scss</span>
-    <a href="about.html">about</a></h4>
-    <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngpix.com%2Fwp-content%2Fuploads%2F2016%2F02%2FLemon-PNG-image.png&f=1" alt="">
+
+<body>
+  <nav>
+    <div class="container"> 
+      <div class="brand">
+        <a href="index.html"><img src="imgs/brand.png" alt="brand"></a>
+      </div>
+
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="space.html">Space</a></li>
+        <li><a href="space.html">Book</a></li>
+        <li><a href="index.html">Contact</a></li>
+      </ul>
+    
+      <div class="menu">
+        <button id="myBtn">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </button>
+      </div>
+  </div>
+  </nav>
+
+  <div class="slider">
+    <div class="container">
+    <img src="imgs/banner.png" alt="slider" class="object-fit_cover" >
+  </div>
+  </div>
+
+  <div class="service">
+    <div class="container">
+    <div class="service1">
+      <img src="imgs/service2.png" alt="">
+      <p>
+        Contrary to popular belief, Lorem Ipsum is not simply random text.
+        It has roots in a piece of classical Latin literature from 45 BC, making 
+      </p>
+    </div>
+    <div class="service1">
+        <img src="imgs/service1.png" alt="">
+        <p>
+          Contrary to popular belief, Lorem Ipsum is not simply random text.
+          It has roots in a piece of classical Latin literature from 45 BC, making 
+        </p>
+      </div>
+      <div class="service1">
+          <img src="imgs/service3.png" alt="">
+          <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC, making 
+          </p>
+        </div>
+      </div>
+  </div>
+
+
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <div class="inner-modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Register/Login</p>
+        <p>Home</p>
+        <p>Winners</p>
+        <p>Nomiees</p>
+        <p>Collections</p>
+        <p>Home</p>
+        <p>Winners</p>
+        <p>Nomiees</p>
+        <p>Collections</p>
+      </div>
+    </div>
+    <!-- Modal content -->
+  </div>
+
+
+
+  <script type="text/javascript">
+    // let menu = document.getElementsByClass('menu');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    var mainWrapper = document.getElementsByClassName("main-wrapper")[0];
+    
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+        modal.style.display = "block";
+        // mainWrapper.style.opacity = .9;
+    
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    
+  </script>
+
 </body>
+
 </html>

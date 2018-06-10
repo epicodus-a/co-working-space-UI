@@ -32,6 +32,7 @@
   }
 }
 
+/// cross agent mixin
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -39,12 +40,13 @@
           border-radius: $radius;
 }
 
+///example use case 
 .box {
   @include border-radius(10px);
 }
 
 
-/// media querys
+/// media queries
 @mixin mobile {
   @media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 1px}) {
     @content;

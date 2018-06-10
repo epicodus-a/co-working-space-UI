@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: $bg-color1;
+}
+
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
  * Since `*` has a specificity of 0, it does not override the `html` value
@@ -32,4 +36,9 @@ a {
     color: $text-color;
     text-decoration: underline;
   }
+}
+
+// Basic style for li
+li {
+  list-style: none;
 }
