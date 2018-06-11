@@ -6,7 +6,11 @@
   font-size: 0.89rem;
   justify-content: center;
   align-items: center;
+  
   padding: 4.9rem 3rem;
+  @include mobile {
+
+  }
   
   p{
     text-align: center;
