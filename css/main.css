@@ -439,7 +439,7 @@ body {
  * Basic styles for links
  */
 a {
-  color: #e50050;
+  color: #222222;
   text-decoration: none; }
   a:hover, a:active, a:focus {
     color: #222222;
@@ -567,16 +567,15 @@ body {
     justify-self: end;
     -ms-flex-item-align: center;
     align-self: center;
-    color: #222222;
-    font-size: 1rem; }
+    font-size: 1.3rem;
+    font-style: bold; }
     .container .navbar li {
       display: inline;
-      padding-left: 0.3rem; }
+      padding-left: 0.6rem; }
     @media (min-width: 320px) and (max-width: 767px) {
       .container .navbar {
         display: none;
-        font-size: 0.6rem;
-        color: #222222; } }
+        font-size: 0.6rem; } }
     @media (min-width: 768px) and (max-width: 1023px) {
       .container .navbar {
         display: block; } }
@@ -597,7 +596,7 @@ body {
   top: 0;
   width: 100%;
   /* Full width */
-  height: 100%;
+  height: 50vh;
   /* Full height */
   overflow: auto;
   /* Enable scroll if needed */
@@ -614,12 +613,20 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-color: #fefefe;
+  background-color: #d0dfbe;
   margin: auto;
-  padding: 20px;
-  /* border: 1px solid #888; */
-  width: 80%;
-  height: 100vh; }
+  padding: 5px 20px;
+  width: 100%;
+  height: 50vh;
+  opacity: .86;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .modal-content li {
+    padding-bottom: 1.6rem; }
 
 /* The Close Button */
 .close {
@@ -636,7 +643,7 @@ body {
 
 footer .container {
   display: grid;
-  grid-row-gap: 2.2rem;
+  grid-row-gap: 2rem;
   grid-column-gap: 2.5rem;
   font-size: 0.89rem;
   -webkit-box-pack: justify;
@@ -662,7 +669,10 @@ footer .container {
     footer .container {
       grid-template-columns: 1fr;
       padding: 1.6rem 3rem;
-      font-size: 0.75rem; } }
+      font-size: 0.75rem;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; } }
   @media (min-width: 768px) and (max-width: 1023px) {
     footer .container {
       grid-template-columns: 5fr 2fr;
@@ -694,6 +704,19 @@ footer .container {
     @media (min-width: 1024px) {
       .slider img {
         width: 100%; } }
+
+.gallery {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .gallery img {
+    width: 100%;
+    -o-object-fit: contain;
+    object-fit: contain; }
 
 .service {
   padding-top: 2.5rem; }
@@ -739,4 +762,78 @@ footer .container {
       -ms-flex-align: center;
       align-items: center; }
 
+.calender .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .calender .container .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .calender .container .title {
+        display: none; } }
+    @media (min-width: 1024px) {
+      .calender .container .title {
+        display: none; } }
+  .calender .container span {
+    background-color: #8dd9bf;
+    padding: 0.2rem 0.2rem; }
+    .calender .container span strong {
+      color: purple; }
+  .calender .container img {
+    width: 100%;
+    -o-object-fit: contain;
+    object-fit: contain; }
+
+.pricing img {
+  width: 100%; }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .pricing {
+    display: none; } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .pricing {
+    display: block; } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .pricing {
+    display: block; } }
+
+.pricing::after {
+  content: "";
+  background-color: pink; }
+
+.space {
+  display: grid;
+  font-size: 0.89rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 4.9rem 3rem; }
+  .space p {
+    text-align: center; }
+
 /* media query with sass */
+body {
+  display: grid;
+  grid-template-columns: 1fr; }

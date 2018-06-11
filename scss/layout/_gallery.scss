@@ -1,0 +1,16 @@
+.gallery {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  justify-content: center;
+
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  
+
+  
+}

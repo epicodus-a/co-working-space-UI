@@ -1,3 +1,15 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to pages/space.
 // -----------------------------------------------------------------------------
+.space {
+  display: grid;
+  font-size: 0.89rem;
+  justify-content: center;
+  align-items: center;
+  padding: 4.9rem 3rem;
+  
+  p{
+    text-align: center;
+  }
+ 
+}

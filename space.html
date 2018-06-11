@@ -1,12 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+  <title>co-work-space</title>
 </head>
+
 <body>
-  
+  <nav>
+    <div class="container">
+      <div class="brand">
+        <a href="index.html">
+          <img src="imgs/brand.png" alt="brand">
+        </a>
+      </div>
+
+      <ul class="navbar">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="space.html">Space</a>
+        </li>
+        <li>
+          <a href="space.html">Book</a>
+        </li>
+        <li>
+          <a href="index.html">Contact</a>
+        </li>
+      </ul>
+
+      <div class="menu">
+        <button id="myBtn">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="slider">
+    <div class="container">
+      <img src="imgs/banner.png" alt="slider" class="object-fit_cover">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="gallery">
+      <div>
+        <img src="imgs/space1.png" alt="">
+      </div>
+      <div>
+        <img src="imgs/space2.png" alt="">
+      </div>
+      <div>
+        <img src="imgs/space3.png" alt="">
+      </div>
+      <div>
+        <img src="imgs/space5.png" alt="">
+      </div>
+      <div>
+        <img src="imgs/space4.png" alt="">
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="pricing">
+    <img src="imgs/officeprice.png" alt="">
+
+  </div>
+</div>
+
+
+  <div class="calender">
+    <div class="container">
+      <div class="title">
+        <h4>Bookings</h4>
+        <span>
+          <a href="space.html">
+            <strong>Make A Booking</strong>
+          </a>
+        </span>
+      </div>
+      <div>
+        <img src="imgs/calendar2.png" alt="">
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <div class="service">
+    <div class="container">
+      <div class="service1">
+        <img src="imgs/service2.png" alt="">
+        <p>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+          from 45 BC, making
+        </p>
+      </div>
+      <div class="service1">
+        <img src="imgs/service1.png" alt="">
+        <p>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+          from 45 BC, making
+        </p>
+      </div>
+      <div class="service1">
+        <img src="imgs/service3.png" alt="">
+        <p>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+          from 45 BC, making
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="space">
+    <p>
+      The standard chunk of Lorem Ipsum used since the 1500s is reproduced below For those interested.
+      <br>
+      <br> Sections 1.10.32 and Bonorum 1.10.33 from "de Finibus et Malorum"
+      <br>
+      <br> by Cicero ar e also reproduced in
+    </p>
+
+  </footer>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <ul class="navbar">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="space.html">Space</a>
+        </li>
+        <li>
+          <a href="space.html">Book</a>
+        </li>
+        <li>
+          <a href="index.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Modal content -->
+  </div>
+
+  <script type="text/javascript">
+    var btn = document.getElementById("myBtn");
+    var modal = document.getElementById('myModal');
+    var span = document.getElementsByClassName("close")[0];
+    var mainWrapper = document.getElementsByClassName("main-wrapper")[0];
+
+    btn.onclick = function () {
+      modal.style.display = "block";
+
+    }
+
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+  </script>
+
 </body>
+
 </html>

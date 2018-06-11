@@ -1,0 +1,38 @@
+.calender {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    // flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      @include tablet {
+        display: none;
+      }
+
+      @include desktop {
+        display: none;
+      }
+    }
+
+    span {
+      // border: 1px solid $text-color;
+      background-color: $bg-color3;
+      padding: 0.2rem 0.2rem;
+      strong{  
+      color: purple;
+      }
+    }
+
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}

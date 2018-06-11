@@ -4,7 +4,7 @@
 footer {
   .container{
   display: grid;
-  grid-row-gap: 2.2rem;
+  grid-row-gap: 2rem;
   grid-column-gap: 2.5rem;
   font-size: 0.89rem;
   justify-content: space-between;
@@ -23,8 +23,6 @@ footer {
     margin: 0.2rem 2.2rem;
     height: 16vh;
     padding: 1.2rem 1.3rem;
-    
-      
     }
 
   }
@@ -33,6 +31,7 @@ footer {
     grid-template-columns: 1fr;
     padding: 1.6rem 3rem;
     font-size: 0.75rem;
+    justify-content: center;
     }
 
     @include tablet{
@@ -49,3 +48,5 @@ footer {
 
   }
 }
+
+

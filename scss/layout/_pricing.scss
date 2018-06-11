@@ -1,0 +1,24 @@
+.pricing {
+  
+  img{
+  width: 100%;
+  }
+
+  @include mobile{
+    display: none;
+  }
+
+  @include tablet {
+    display: block;
+  }
+
+
+  @include tablet {
+    display: block;
+  }
+
+  &::after {
+    content: "";
+    background-color: pink;
+  }
+}
