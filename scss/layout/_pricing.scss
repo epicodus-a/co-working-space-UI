@@ -16,15 +16,13 @@
       content: "";
       position: absolute;
       left: 0;
-      // top: 0;
+      top: 0;
       bottom: 0;
       right: 0;
       width: 100%;
       height: 100%;
-      // background: linear-gradient(to left, #8b86a3, #322e40);
       background-color:darken(saturate($bg-color2, 40), 15);
       opacity: 0.6;
-      z-index: 100;
     }
   }
 
@@ -35,15 +33,13 @@
       content: "";
       position: absolute;
       left: 0;
-      // top: 0;
+      top: 0;
       bottom: 0;
       right: 0;
       width: 100%;
       height: 100%;
-      // background: linear-gradient(to left, #8b86a3, #322e40);
       background-color:darken(saturate($bg-color2, 40), 15);
       opacity: 0.6;
-      z-index: 100;
     }
   }
 }

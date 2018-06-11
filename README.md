@@ -1,14 +1,14 @@
-## Co-working Space
+# Co-working Space
 ---
 
-#### Adriana
-#### Jun 1st, 2018
+#### By Adriana Jun 1st, 2018
 
-### Description
+
+## Description
 
 UI design for co-working space alike business
 
-### Brainstorming
+##  Brainstorming
 - material credits go to below sites:
   - [hackerspace](http://pdxhackerspace.org/)
   - [google](google.com)
@@ -16,45 +16,29 @@ UI design for co-working space alike business
  ![request](imgs/request.png)
 
 
-### Images
+<!-- ![mobile home](sketches/Mobile-Portrait-home.jpg) -->
+<!-- ![mobile hzamburger clicked](sketches/Mobile-Portrait-hamburg-clicked.jpg) -->
+<!-- ![mobile space ](sketches/Mobile-Portrait-space-page.jpg) -->
 
+## Technologies and Resources
 
-#### Desktop Version
-
-![desktop user interface](sketches/Desktop-home.jpg)
-
-#### Tablet Version
-
-![tablet home](sketches/Tablet-Portrait-home.jpg)
-![mobile space ](sketches/Tablet-Portrait-space-page.jpg)
-
-#### Mobile Version
-
-![mobile home](sketches/Mobile-Portrait-home.jpg)
-![mobile hamburger clicked](sketches/Mobile-Portrait-hamburg-clicked.jpg)
-![mobile space ](sketches/Mobile-Portrait-space-page.jpg)
-
-### Technologies and Resources
-
+- CSS
 - Sketch
 
-### Responsiveness
+## Responsiveness
 
 - Desktop
 - tablet
 - Mobile
 
-### Setup Instructions
+## Setup Instructions
 
 - Clone the project
-- Navigate to sketch folder
-- View different sketches
+- View `index.html`
 
-### Roadmap
 
-- Register / Login
 
-### License
+## License
 
 MIT
 
